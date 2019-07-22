@@ -3,5 +3,11 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: #E58376
+  background-color: #E58376 !important;
+}
+header {
+  display: none !important;
+}
+.container {
+  margin-top: 150px !important;
 }
